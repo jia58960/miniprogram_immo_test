@@ -1,0 +1,37 @@
+/* pages/success/success.wxss */
+
+
+.success-icon{
+  margin-left:250rpx;
+  color: #d4237a;
+}
+.success-center{
+  text-align: center;
+}
+.success-title{
+  color: #515151;
+  padding-top: 30rpx;
+}
+.success-content{
+  color: #8a8a8a;
+  font-size: 30rpx;
+  padding-top: 18rpx;
+}
+.success-imgage{
+  height: 70px;
+  width: 70px;
+  margin-left: 40%;
+}
+.addwifi-btn{
+  background:#1296db;
+  height: 50px;
+  width:80%;
+  margin-left: 10%;
+  border-radius:25px;
+  margin-top: 350px;
+}
+
+.addwifi-btn-text{
+  font-size: 17px;
+  font-weight: 200;
+}

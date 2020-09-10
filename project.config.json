@@ -47,15 +47,211 @@
 			"list": []
 		},
 		"game": {
+			"current": -1,
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
 			"list": []
 		},
 		"miniprogram": {
-			"current": 0,
+			"current": 5,
 			"list": [
 				{
+					"id": 0,
+					"name": "pages/lots/lots",
+					"pathName": "pages/lots/lots",
+					"query": "",
+					"scene": null
+				},
+				{
 					"id": -1,
-					"name": "db guide",
-					"pathName": "pages/databaseGuide/databaseGuide"
+					"name": "pages/user/user",
+					"pathName": "pages/user/user",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/test/test",
+					"pathName": "pages/test/test",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 3,
+					"name": "pages/productsDetail/productsDetail",
+					"pathName": "pages/productsDetail/productsDetail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 4,
+					"name": "pages/deviceDetail/deviceDetail",
+					"pathName": "pages/deviceDetail/deviceDetail",
+					"query": "",
+					"scene": 1000
+				},
+				{
+					"id": -1,
+					"name": "pages/curtain/curtain",
+					"pathName": "pages/curtain/curtain",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 6,
+					"name": "pages/putOrder/putOrder",
+					"pathName": "pages/putOrder/putOrder",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/progress/progress",
+					"pathName": "pages/progress/progress",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/success/success",
+					"pathName": "pages/success/success",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 9,
+					"name": "pages/failure/failure",
+					"pathName": "pages/failure/failure",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 10,
+					"name": "pages/floor/floor",
+					"pathName": "pages/floor/floor",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 11,
+					"name": "index",
+					"pathName": "pages/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/addplace/addplace",
+					"pathName": "pages/addplace/addplace",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 13,
+					"name": "pages/warninglog/warninglog",
+					"pathName": "pages/warninglog/warninglog",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/addwifi/addwifi",
+					"pathName": "pages/addwifi/addwifi",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/binddevice/binddevice",
+					"pathName": "pages/binddevice/binddevice",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/bindlist/bindlist",
+					"pathName": "pages/bindlist/bindlist",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/linkdevice/linkdevice",
+					"pathName": "pages/linkdevice/linkdevice",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/aircontrol/aircontrol",
+					"pathName": "pages/aircontrol/aircontrol",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/air/air",
+					"pathName": "pages/air/air",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/myinfo/myinfo",
+					"pathName": "pages/myinfo/myinfo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/addfloor/addfloor",
+					"pathName": "pages/addfloor/addfloor",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 22,
+					"name": "pages/room/room",
+					"pathName": "pages/room/room",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/allroom/allroom",
+					"pathName": "pages/allroom/allroom",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/addroom/addroom",
+					"pathName": "pages/addroom/addroom",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/Wifi/Wifi",
+					"pathName": "pages/Wifi/Wifi",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/addWifi/addWifi",
+					"pathName": "pages/addWifi/addWifi",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/news/news",
+					"pathName": "pages/news/news",
+					"query": "",
+					"scene": null
 				}
 			]
 		}

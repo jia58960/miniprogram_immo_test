@@ -1,0 +1,10 @@
+/* pages/bindlist/bindlist.wxss */
+.bindlist-inp-info{
+  font-size: 25rpx;
+  margin-left: 50rpx;
+}
+.bindlist-inp-content{
+  font-size: 14px;
+  opacity: 0.50;  
+  filter: alpha(opacity=50);
+}

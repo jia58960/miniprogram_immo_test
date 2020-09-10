@@ -1,0 +1,5 @@
+.page-title{font-size: 1.5em;color: crimson;margin-left: -30rpx;margin-top: -1em;}
+.user-cell-body{margin-top: -10rpx;}
+.user-font{
+  font-size: 32rpx;
+}

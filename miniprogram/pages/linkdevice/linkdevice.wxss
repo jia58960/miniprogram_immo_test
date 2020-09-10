@@ -1,0 +1,110 @@
+/* pages/linkdevice/linkdevice.wxss */
+.linkdevice-image{
+  height: 100px;
+  width: 100px;
+  margin-left: 130px;
+}
+.linkdevice-center{
+  text-align: center;
+  font-size: 23rpx;
+  color:#8a8a8a;
+  padding-top: 10px;
+}
+.timeline {
+  padding: 15px;
+}
+.timeline-item{
+  position:relative;
+  list-style: none;
+}
+.timeline-item-color {
+  background-color: #1296db;
+
+}
+.timeline-item-head-first {
+  width: 20px;
+  height: 20px;
+  left: 55px;
+  top: 4px;
+  position: absolute;
+  content: '';
+  z-index: 99;
+  border-radius: 99px;
+}
+.timeline-item-head {
+  width: 10px;
+  height: 10px;
+  left: 55px;
+  top: 4px;
+  position: absolute;
+  content: '';
+  z-index: 99;
+  border-radius: 99px;
+}
+.timeline-item-checked {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  color:#FFF;
+}
+.timeline-item-checked.weui-icon-success-no-circle::before {
+  font-size: 14px;
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  margin: 0 !important;
+  color: #FFF;
+}
+.timeline-item-tail {
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 2px;
+  left: 5px;
+  top: 5px;
+  background-color: #1296db;
+
+}
+.timeline-item-content {
+  padding: 0 0 30px 85px;
+  width: 170px;
+  font-size: 30rpx;
+}
+/* .timeline .recent {
+  color: #fd015c;
+} */
+.timeline h4 {
+  color: #333;
+  font-weight: normal;
+}
+.timeline p {
+  color: #888;
+  font-size: 14px;
+}
+.hide {
+  display: none; }
+
+.linkdevice-btn{
+  background-color: #1296db;
+  font-size: 30rpx;
+  color: white;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 135px;
+}
+.addwifi-btn{
+  background:#1296db;
+  height: 50px;
+  width:80%;
+  margin-left: 10%;
+  border-radius:25px;
+  margin-top: 90px;
+}
+
+.addwifi-btn-text{
+  font-size: 17px;
+  font-weight: 200;
+}

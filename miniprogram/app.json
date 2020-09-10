@@ -1,26 +1,59 @@
 {
-  "pages": [
+  "pages":[
     "pages/index/index",
-    "pages/userConsole/userConsole",
-    "pages/storageConsole/storageConsole",
-    "pages/databaseGuide/databaseGuide",
-    "pages/addFunction/addFunction",
-    "pages/deployFunctions/deployFunctions",
-    "pages/chooseLib/chooseLib",
-    "pages/openapi/openapi",
-    "pages/openapi/serverapi/serverapi",
-    "pages/openapi/callback/callback",
-    "pages/openapi/cloudid/cloudid",
-    "pages/im/im",
-    "pages/im/room/room"
+    "pages/lots/lots",
+    "pages/logs/logs",
+    "pages/user/user",
+    "pages/productsDetail/productsDetail",
+    "pages/deviceDetail/deviceDetail",
+    "pages/putOrder/putOrder",
+    "pages/progress/progress" ,
+    "pages/success/success",
+    "pages/failure/failure",
+    "pages/floor/floor",
+    "pages/warninglog/warninglog",
+    "pages/bindlist/bindlist",
+    "pages/linkdevice/linkdevice",
+    "pages/myinfo/myinfo",
+    "pages/addfloor/addfloor",
+    "pages/room/room",
+    "pages/addroom/addroom",
+    "pages/allroom/allroom",
+    "pages/addWifi/addWifi",
+    "pages/Wifi/Wifi",
+    "pages/news/news"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#EDEDED",
+    "backgroundColor": "#EDEDED"
   },
   "sitemapLocation": "sitemap.json",
-  "style": "v2"
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#d4237a",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "img/index-y.png",
+        "iconPath": "img/index-n.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "img/equipment-y.png",
+        "iconPath": "img/equipment-n.png",
+        "pagePath": "pages/lots/lots",
+        "text": "商城"
+      },
+      {
+        "selectedIconPath": "img/own-y.png",
+        "iconPath": "img/own-n.png",
+        "pagePath": "pages/user/user",
+        "text": "我的"
+      }
+    ]
+  }
 }

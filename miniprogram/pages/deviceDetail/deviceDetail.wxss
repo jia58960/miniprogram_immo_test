@@ -1,0 +1,14 @@
+/* pages/deviceDetail/deviceDetail.wxss */
+.addwifi-btn{
+  background:#1296db;
+  height: 50px;
+  width:80%;
+  margin-left: 10%;
+  border-radius:25px;
+  margin-top: 60px;
+}
+
+.addwifi-btn-text{
+  font-size: 17px;
+  font-weight: 200;
+}

@@ -1,0 +1,5 @@
+<!--components/address.wxml-->
+<view style="background:#1296db; height:140px;color:white; padding-left:18px; padding-top:18px">
+    <view style="font-size:22px; font-weight:100">上海新安电竞酒店</view>
+    <view style="font-size:15px; font-weight:100; padding-top:10px">地址：上海市青浦区衡山路188号二楼</view>
+</view>

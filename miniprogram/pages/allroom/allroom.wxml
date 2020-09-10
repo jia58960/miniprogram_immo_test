@@ -1,0 +1,32 @@
+<view class="page" data-weui-theme="{{theme}}" >
+    
+    <view class="page__bd">
+        <view class="weui-cells weui-cells_after-title"  style="margin-top:-6px;font-size:15px">
+
+            <view class="weui-cell">
+                <view class="weui-cell__bd">101</view>
+                <view class="weui-cell__ft"></view>
+            </view>
+
+            <view class="weui-cell">
+                <view class="weui-cell__bd">102</view>
+                <view class="weui-cell__ft"></view>
+            </view>
+
+
+            <view class="weui-cell">
+                <view class="weui-cell__bd">103</view>
+                <view class="weui-cell__ft"></view>
+            </view>
+
+        </view>
+
+        <view class="button-sp-area addwifi-btn" catchtap="toAddRoom">
+            <a class="weui-btn addwifi-btn-text" >添加房间</a>
+        </view>
+        <view class="button-sp-area floorDel-btn" >
+            <a class="weui-btn floorDel-btn-text" >删除房间</a>
+        </view>
+       
+      </view>
+</view>

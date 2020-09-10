@@ -1,0 +1,28 @@
+<view class="page" data-weui-theme="{{theme}}" style="background:white">
+   
+    <view class="page__bd">
+        <view style="padding:16px">
+         楼层：1楼
+        </view>
+        <view class="weui-cells weui-cells_after-title" style="margin-top:0; font-size:14px">
+
+            <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active" catchtap="toDeviceDetail">
+                <view class="weui-cell__bd" style="opacity:0.5; ">房间：1001</view>
+                <view class="weui-cell__ft weui-cell__ft_in-access">机器编号：YB03050028</view>
+            </navigator>
+            <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active" catchtap="toDeviceDetail">
+                    <view class="weui-cell__bd" style="opacity:0.5; ">房间：1002</view>
+                    <view class="weui-cell__ft weui-cell__ft_in-access">机器编号：YB03050028</view>
+            </navigator>
+            <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active" catchtap="toDeviceDetail">
+                    <view class="weui-cell__bd" style="opacity:0.5; ">房间：1003</view>
+                    <view class="weui-cell__ft weui-cell__ft_in-access">机器编号：YB03050028</view>
+            </navigator>
+            <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active" catchtap="toDeviceDetail">
+                    <view class="weui-cell__bd" style="opacity:0.5; ">房间：1005</view>
+                    <view class="weui-cell__ft weui-cell__ft_in-access">机器编号：YB03050028</view>
+            </navigator>
+          </view>
+         
+      </view>
+</view>

@@ -1,0 +1,23 @@
+/* pages/Wifi/Wifi.wxss */
+
+.addwifi-btn{
+  background:#1296db;
+  height: 50px;
+  width:80%;
+  margin-left: 10%;
+  border-radius:25px;
+  margin-top: 400px;
+}
+
+.addwifi-btn-text{
+  font-size: 17px;
+  font-weight: 200;
+}
+.floorDel-btn{
+ background-color: white;
+ margin-top: 16px;
+}
+.floorDel-btn-text{
+  color: #8a8a8a;
+  font-weight: 200;
+}

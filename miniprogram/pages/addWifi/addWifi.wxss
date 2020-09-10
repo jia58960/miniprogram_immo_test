@@ -1,0 +1,19 @@
+/* pages/addfloor/addfloor.wxss */
+.addwifi-list{
+  height: 56px;
+  padding-bottom: 0;
+  font-size: 15px;
+}
+.addwifi-btn{
+  background:#1296db;
+  height: 50px;
+  width:80%;
+  margin-left: 10%;
+  border-radius:25px;
+  margin-top: 450px;
+}
+
+.addwifi-btn-text{
+  font-size: 17px;
+  font-weight: 200;
+}

@@ -1,0 +1,60 @@
+<view class="page" data-weui-theme="{{theme}}" style="background:white">
+    <view class="page__hd" style="height:80px">
+        <view style="font-size:23px; width:58%;float:left">
+             <view style="font-weight:bold">YB030500028</view> 
+             <image src="../../img/fivestart.png" style=" height:15px; width:95px"></image>
+        </view>
+        <view style="font-size:15px;opacity: 0.70; width:30%;float:left; padding-left:25px;border-left:1.5px solid #e6e6e6">
+            <view >电量 \t\t\t\t 100%</view>
+            <view style="margin-top:20px">网络 \t\t\t\t 在线%</view>
+        </view>
+    </view>
+    <view style="background-color:#EDEDED; width:100%;height:30rpx;"></view>
+    <view class="page__bd">
+        <view class="weui-panel__hd">
+          警报日志
+        </view>
+        <view class="weui-media-box weui-media-box_text" style="height:55px">
+            <p class="weui-media-box__desc" style="padding-bottom:10px"> 来自 \t \t 电量警报 \t\t 2018/09/21 \t\t 10:02 <image src="../../img/yellowdots.png" style="width:15px; height:15px; float:right"></image></p> 
+  
+            <p class="weui-media-box__title" style="font-size:15px;opacity: 0.50; filter: alpha(opacity=50);"> 3005号房YB03005001主机 <span style="color:#c7c755">电量3%警报</span>提醒 </p>
+        </view>
+        
+        <view class="weui-media-box weui-media-box_text" style="height:55px">
+            <p class="weui-media-box__desc" style="padding-bottom:10px"> 来自 \t \t 电量警报 \t\t 2018/09/21 \t\t 12:05 <image src="../../img/reddots.png" style="width:15px; height:15px; float:right"></image></p> 
+  
+            <p class="weui-media-box__title" style="font-size:15px;opacity: 0.50; filter: alpha(opacity=50);"> 2006号房YB02006001主机 <span style="color:#d81e06">防盗报警</span>提醒 </p>
+        </view>
+
+         <view class="weui-media-box weui-media-box_text" style="height:55px">
+            <p class="weui-media-box__desc" style="padding-bottom:10px"> 来自 \t \t 电量警报 \t\t 2018/09/21 <image src="../../img/bluedots.png" style="width:15px; height:15px; float:right"></image></p> 
+  
+            <p class="weui-media-box__title" style="font-size:15px;opacity: 0.50; filter: alpha(opacity=50);"> 0408号房Y0408001主机 <span style="color:#1296db">网络掉线警报</span>提醒 </p>
+        </view>
+
+         <view class="weui-media-box weui-media-box_text" style="height:55px">
+            <p class="weui-media-box__desc" style="padding-bottom:10px"> 来自 \t \t 电量警报 \t\t 2018/09/21 \t\t 10:02 <image src="../../img/greydots.png" style="width:15px; height:15px; float:right"></image></p> 
+  
+            <p class="weui-media-box__title" style="font-size:15px;opacity: 0.50; filter: alpha(opacity=50);"> 3005号房YB03005001主机 <span style="color:#c7c755">电量3%警报</span>提醒 </p>
+        </view>
+
+          <view class="button-sp-area addwifi-btn" catchtap="openIOS1">
+            <a class="weui-btn addwifi-btn-text" >进入维修模式</a>
+          </view>
+
+          <view class="fadeIn" wx:if="{{iosDialog1}}">
+            <view class="weui-mask"></view>
+            <view class="weui-dialog">
+                <view class="weui-dialog__hd"><view class="weui-dialog__title" style="font-weight:normal">请输入管理员密码</view></view>
+                <view class="weui-dialog__bd"> 
+                    <input class="weui-input" style="font-size:14px; border:1px solid #e6e6e6; text-align:left; height;18px" placeholder="输入密码"/>
+                </view>
+                <view class="weui-dialog__ft" >
+                    <a class="weui-dialog__btn weui-dialog__btn_default"  style="font-weight:normal" bindtap="close">取消</a>
+                    <a class="weui-dialog__btn weui-dialog__btn_primary"  style="font-weight:normal" bindtap="close">确认</a>
+                </view>
+        </view>
+    </view>
+
+      </view>
+</view>

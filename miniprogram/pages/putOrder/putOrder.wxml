@@ -1,0 +1,55 @@
+<view class="page" data-weui-theme="{{theme}}" >
+
+    <view class="page__bd">
+        <view class="weui-panel__hd" style="background:white"> 
+            <view>IMMO防盗模块</view>
+              <view style="font-size:13px; color:#8a8a8a; margin-top:10px; font-weight:200">
+              <view style="padding-bottom:5px">电压：12V主板供电</view>
+              <ul>
+                <li>电池：2000mA \t\t\t\t\t\t\t\t</li>
+                <li>通讯方式：WIFI \t\t\t\t\t\t\t\t</li>
+                <li>模式：2 \t\t\t\t\t\t\t\t</li>
+              </ul>
+              <view style="padding-top:5px">功能：主机防盗报警-霍尔传感器设备装置</view>
+            </view>  
+        </view>
+        <view class="weui-panel__bd">
+           
+            <view class="weui-cells weui-cells_after-title">
+                <view class="weui-cell">
+                    <view class="weui-cell__bd" style="font-size:15px">预订设备数</view>
+                    <view class="weui-cell__ft">
+                        <view class="stepper">
+                            <!-- 减号 -->
+                            <text class="{{minusStatus}}" bindtap="bindMinus">-</text>
+                            <!-- 数值 -->
+                            <input type="number" bindchange="bindManual" value="{{num}}" />
+                            <!-- 加号 -->
+                            <text class="normal" bindtap="bindPlus">+</text>
+                      </view>
+                    </view>
+                </view>
+                <view class="weui-cell" style="font-size:15px">
+                    <view>联系人</view>
+                    <view style="margin-left:35px">刘东强</view>
+                </view>
+                <view class="weui-cell" style="font-size:15px">
+                    <view>手机号</view>
+                    <view style="margin-left:35px">1836741936</view>
+                </view>
+                <view class="weui-cell" style="font-size:15px">
+                    <view>地址</view>
+                    <view style="margin-left:50px">山西省太原市洪山区22号</view>
+                </view>
+            </view>
+        </view>
+
+        <view class='bottomCont'>
+            <view class='bottomContL'>
+            订单金额:¥48.00
+            </view>
+            <view class='bottomContR' bindtap='toPay'>立即支付</view>
+         </view>
+
+      </view>
+</view>

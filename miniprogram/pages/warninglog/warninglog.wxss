@@ -1,0 +1,12 @@
+/* pages/internet/internet.wxss */
+
+.internet-btn{
+  background:#f1225a;
+  width:80%;
+  margin-left: 10%;
+  margin-top:480px;
+}
+
+.internet-font{
+  font-size: 30rpx;
+}

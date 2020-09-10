@@ -1,0 +1,20 @@
+<view class="page" data-weui-theme="{{theme}}" style="background:white">
+	<!-- <view class="page__hd">
+		<view class="page__title success-head">添加设备</view>
+	</view> -->
+	<view class="page__bd page__bd_spacing">
+
+        <view class="icon-box" style="margin-top:130px">
+            <image src="../../img/failure.png" class=" failure-imgage"></image>
+            <view class="icon-box__ctn failure-center">
+                <h3 class="icon-box__title failure-title">添加成功</h3>
+                <view class="icon-box__desc failure-content">恭喜你成功添加新的设备，快去体验吧</view>
+        </view>
+
+
+    </view>
+        <view class="button-sp-area addwifi-btn" >
+            <a class="weui-btn addwifi-btn-text" >返回首页</a>
+        </view>
+	</view>
+</view>

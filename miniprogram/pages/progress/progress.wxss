@@ -1,0 +1,19 @@
+/* pages/progress/progress.wxss */
+
+.progress-title{
+  padding-top: 35rpx;
+  color: #8a8a8a;
+  text-align: center;
+}
+.progress-content{
+  padding-top: 20rpx;
+  color: #8a8a8a;
+  text-align: center;
+  font-size: 30rpx;
+}
+
+.progress-bar{
+  width:86%;
+  margin-left:7%; 
+  margin-top:190px
+}

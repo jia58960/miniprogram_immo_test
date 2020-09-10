@@ -1,0 +1,51 @@
+<view class="page" data-weui-theme="{{theme}}" style="background:white">
+	<!-- <view class="page__hd">
+		<view class="page__title progress-head">添加设备</view>
+	</view> -->
+	<view class="page__bd page__bd_spacing">
+
+			<view class="icon-box" style="margin-top:100px">
+          <image src="../../img/device.png" class=" linkdevice-image"></image>
+          <view class="icon-box__ctn linkdevice-center">
+              <!-- <h3 class="icon-box__title success-title">添加成功</h3>
+              <view class="icon-box__desc success-content">恭喜你成功添加新的设备，快去体验吧</view> -->
+              <view >确认供电，确认设备指示灯出于红灯快闪状态</view>
+              <view>如果指示灯出于其他状态，执行下面操作</view>
+      </view>
+			
+			<view class="timeline">
+    <ul>
+        <li class="timeline-item">
+            <view class="timeline-item-color timeline-item-head-first">
+            <i class="sss" style="color:#fff;padding-left: 5px;">1</i>
+            </view>
+            <view class="timeline-item-tail" ></view>
+            <view class="timeline-item-content"><h4 class="recent">接通电源</h4>
+            </view>
+        </li>
+        <li class="timeline-item">
+            <view class="timeline-item-color timeline-item-head-first">
+            <i class="sss" style="color:#fff;padding-left: 5px;">2</i>
+            </view>
+            <view class="timeline-item-tail" ></view>
+            <view class="timeline-item-content"><h4>配置wifi入网</h4>
+            </view>
+        </li>
+        <li class="timeline-item">
+            <view class="timeline-item-color timeline-item-head-first">
+            <i class="sss" style="color:#fff;padding-left: 5px;">3</i>
+            </view>
+            <view class="timeline-item-tail " ></view>
+            <view class="timeline-item-content"><h4>确认指示灯为蓝色入网状态</h4>
+            </view>
+        </li>
+    </ul>
+</view>
+
+		</view> 
+    	<view class="button-sp-area addwifi-btn" >
+            <a class="weui-btn addwifi-btn-text" >下一步</a>
+        </view>
+
+	</view>
+</view>

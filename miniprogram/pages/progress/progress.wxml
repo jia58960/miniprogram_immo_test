@@ -1,0 +1,23 @@
+<view class="page" data-weui-theme="{{theme}}" style="background:white">
+	<!-- <view class="page__hd">
+		<view class="page__title progress-head">添加设备</view>
+	</view> -->
+	<view class="page__bd page__bd_spacing">
+
+						
+			<view class="weui-progress progress-bar">
+				<view class="weui-progress__bar" style="background:#e6e6e6; height:50rpx; border-radius:10px">
+					<view class="weui-progress__inner-bar js_progress" style="width: 40%; background:#1296db; border-radius:10px"></view>
+				</view>
+				
+			</view>
+			
+			<view>
+					<view class="progress-title">40%设备配置中</view> 
+					<view class="progress-content">尽量使用您的路由器、手机、设备相互靠近</view>
+			</view> 
+		
+	
+
+	</view>
+</view>

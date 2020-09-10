@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "navigationBarTitleText": "Mebs首页",
+  "usingComponents": {
+    "x-address": "../../components/address/address"
+  }
 }

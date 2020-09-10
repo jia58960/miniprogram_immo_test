@@ -1,0 +1,41 @@
+<view class="page" data-weui-theme="{{theme}}">
+
+    <view class="page__bd">
+
+        <view class="weui-cells weui-cells_after-title add-place-list " style="margin:0;" >
+
+            <view class="weui-cell weui-cell_vcode addwifi-list">
+                <view class="weui-cell__hd">
+                    <view class="weui-label">WIFI名称</view>
+                </view>
+                <view class="weui-cell__bd">
+                    <input class="weui-input" placeholder="点击搜索wifi选择列表" style="font-size:28rpx"/>
+                </view>
+            </view>
+
+            <view class="weui-cell weui-cell_vcode addwifi-list">
+                <view class="weui-cell__hd">
+                    <view class="weui-label">WIFI密码</view>
+                </view>
+                <view class="weui-cell__bd">
+                    <input class="weui-input" placeholder="请WIFI密码" style="font-size:28rpx"/>
+                </view>
+            </view>
+            
+            <view class="weui-cell weui-cell_vcode addwifi-list">
+                <view class="weui-cell__hd">
+                    <view class="weui-label">网络备注</view>
+                </view>
+                <view class="weui-cell__bd">
+                    <input class="weui-input" placeholder="请输入网络备注" style="font-size:28rpx"/>
+                </view>
+            </view>
+            
+        </view>
+
+       
+        <view class="button-sp-area addwifi-btn" >
+            <a class="weui-btn addwifi-btn-text" >保存</a>
+        </view>
+    </view>
+</view>

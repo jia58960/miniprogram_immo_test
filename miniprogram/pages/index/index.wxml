@@ -1,61 +1,75 @@
-<!--index.wxml-->
-<view class="container">
-
-  <!-- 用户 openid -->
-  <view class="userinfo">
-    <button 
-      open-type="getUserInfo" 
-      bindgetuserinfo="onGetUserInfo"
-      class="userinfo-avatar"
-      style="background-image: url({{avatarUrl}})"
-      size="default"
-    ></button>
-    <view class="userinfo-nickname-wrapper">
-      <button class="userinfo-nickname" bindtap="onGetOpenid">点击获取 openid</button>
+<view class="page" data-weui-theme="{{theme}}">
+ 
+  <view class="page__hb" style="height:210px">
+       <view style="position:relative">
+           <view class="company-info" >
+            <view style="width:30%; float:left; margin-left:4%; text-align:center">
+                <view style="font-size:13px; padding-top:15px; opacity: 0.30;"> 设备总数</view>
+                 <view style="font-size:15px; opacity: 0.70;">56台</view>
+            </view>
+             <view style="width:30%; float:left; text-align:center;">
+                <view style="font-size:13px; padding-top:15px; opacity: 0.30;"> 房间数</view>
+                 <view style="font-size:15px; opacity: 0.70;">22间</view>
+            </view>
+             <view style="width:30%; float:left; text-align:center">
+                <view style="font-size:13px; padding-top:15px; opacity: 0.30;"> 楼层数</view>
+                 <view style="font-size:15px; opacity: 0.70;">3</view>
+            </view>
+        </view>
+          <x-address></x-address>       
+        <view style="background:white; height:70px;">
+            <view style=" font-size:12px;color:#8a8a8a; position: absolute; left:100px; top:200px"> 
+                <image src="../../img/refresh.png" style="width:14px; height:14px;"></image>
+                <view style="float:right; padding-left:20px">更新于2018-05-22 \t\t 15:55</view>
+            </view>
+        </view>
     </view>
-  </view>
-<view>
-<button bindtap="sendVoiceMsg">发送语音消息</button>
+
+    <view style="background-color:#EDEDED; width:100%;height:30rpx; "></view>
+    <view class="weui-panel__bd">
+				<view class="weui-media-box weui-media-box_small-appmsg">
+					<view class="weui-cells">
+
+						<a class="weui-cell weui-cell_active weui-cell_access weui-cell_example" catchtap="toBindList">
+                <view class="weui-cell__hd">								
+                  <image src="../../img/index-home.png" alt style="width: 20px; height: 20px; margin-right: 16px; display: block;"></image>
+                  <image src="../../img/index-device.png" alt style="width: 20px; height: 20px; margin-right: 16px; display: block; margin-top:10px"></image>
+                </view>
+                <view class="weui-cell__bd weui-cell_primary">
+                  <view class="weui-media-box__desc">楼层：1楼</view>
+                  <view class="weui-media-box__title" style="margin-top:10px;font-size:15px">设备总数：12台</view>
+                </view>
+                <text class="weui-cell__ft" style="font-size:15px">查看更多</text>
+						</a>
+
+						<a class="weui-cell weui-cell_active weui-cell_access weui-cell_example" catchtap="toBindList">
+                <view class="weui-cell__hd">								
+                  <image src="../../img/index-home.png" alt style="width: 20px; height: 20px; margin-right: 16px; display: block;"></image>
+                  <image src="../../img/index-device.png" alt style="width: 20px; height: 20px; margin-right: 16px; display: block; margin-top:10px"></image>
+                </view>
+                <view class="weui-cell__bd weui-cell_primary">
+                  <view class="weui-media-box__desc">楼层：2楼</view>
+                  <view class="weui-media-box__title" style="margin-top:10px;font-size:15px">设备总数：20台</view>
+                </view>
+                <text class="weui-cell__ft" style="font-size:15px">查看更多</text>
+						</a>
+
+            <a class="weui-cell weui-cell_active weui-cell_access weui-cell_example" catchtap="toBindList">
+                <view class="weui-cell__hd">								
+                  <image src="../../img/index-home.png" alt style="width: 20px; height: 20px; margin-right: 16px; display: block;"></image>
+                  <image src="../../img/index-device.png" alt style="width: 20px; height: 20px; margin-right: 16px; display: block; margin-top:10px"></image>
+                </view>
+                <view class="weui-cell__bd weui-cell_primary">
+                  <view class="weui-media-box__desc">楼层：3楼</view>
+                  <view class="weui-media-box__title" style="margin-top:10px;font-size:15px">设备总数：8台</view>
+                </view>
+                <text class="weui-cell__ft" style="font-size:15px">查看更多</text>
+						</a>
+
+					</view>
+				</view>
+			</view>
+    </view> 
 </view>
 
-  <!-- 上传图片 -->
-  <view class="uploader">
-    <view class="uploader-text" bindtap="doUpload">
-      <text>上传图片</text>
-    </view>
-    <view class="uploader-container" wx:if="{{imgUrl}}">
-      <image class="uploader-image" src="{{imgUrl}}" mode="aspectFit" bindtap="previewImg"></image>
-    </view>
-  </view>
-
-
-  <!-- 操作数据库 -->
-  <view class="uploader">
-    <navigator url="../databaseGuide/databaseGuide" open-type="navigate" class="uploader-text">
-      <text>前端操作数据库</text>
-    </navigator>
-  </view>
-
-  <!-- 即时通信 -->
-  <view class="uploader">
-    <navigator url="../im/im" open-type="navigate" class="uploader-text">
-      <text>即时通信 Demo</text>
-    </navigator>
-  </view>
-
-  <!-- 新建云函数 -->
-  <view class="uploader">
-    <navigator url="../addFunction/addFunction" open-type="navigate" class="uploader-text">
-      <text>快速新建云函数</text>
-    </navigator>
-  </view>
-
-  <!-- 云调用 -->
-  <view class="uploader">
-    <navigator url="../openapi/openapi" open-type="navigate" class="uploader-text">
-      <text>云调用</text>
-    </navigator>
-  </view>
-
-
-</view>
+	
